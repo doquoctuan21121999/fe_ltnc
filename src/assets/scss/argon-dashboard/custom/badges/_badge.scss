@@ -1,0 +1,185 @@
+//
+// Badge
+//
+
+// General styles
+
+.badge {
+  text-transform: none;
+  font-size: 90%;
+  padding: 0.28rem 0.35rem;
+
+  a {
+    color: $white;
+  }
+}
+
+// Size variations
+
+.badge-md {
+  padding: 0.65em 1em;
+}
+
+.badge-lg {
+  padding: 0.85em 1.375em;
+}
+
+// Multiple inline badges
+
+.badge-inline {
+  margin-right: 0.625rem;
+
+  + span {
+    top: 2px;
+    position: relative;
+
+    > a {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Badge spacing inside a btn with some text
+
+.btn {
+  .badge {
+    &:not(:first-child) {
+      margin-left: 0.5rem;
+    }
+    &:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.badge-primary {
+  background-color: #2643e9;
+  color: #eee;
+}
+.badge-primary[href]:hover,
+.badge-primary[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #324cdd;
+}
+
+.badge-secondary {
+  color: #cfe3f1;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.badge-secondary[href]:hover,
+.badge-secondary[href]:focus {
+  color: #212529;
+  text-decoration: none;
+  background-color: #d2e3ee;
+}
+
+.badge-success {
+  background-color: #1aae6f;
+  color: #eee;
+}
+.badge-success[href]:hover,
+.badge-success[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #24a46d;
+}
+
+.badge-info {
+  color: rgba(136, 230, 247, 0.5);
+  background-color: #03acca;
+}
+.badge-info[href]:hover,
+.badge-info[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0da5c0;
+}
+
+.badge-warning {
+  color: #ff3709;
+  background-color: rgba(254, 201, 189, 0.5);
+}
+.badge-warning[href]:hover,
+.badge-warning[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #fa3a0e;
+}
+
+.badge-danger {
+  background-color: #ec0c38;
+  color: #eee;
+}
+.badge-danger[href]:hover,
+.badge-danger[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #ec0c38;
+}
+
+.badge-light {
+  color: #879cb0;
+  background-color: rgba(244, 245, 246, 0.5);
+}
+.badge-light[href]:hover,
+.badge-light[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #919ca6;
+}
+
+.badge-dark {
+  color: #090c0e;
+  background-color: rgba(90, 101, 112, 0.5);
+}
+.badge-dark[href]:hover,
+.badge-dark[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0a0c0d;
+}
+
+.badge-default {
+  color: #091428;
+  background-color: rgba(52, 98, 175, 0.5);
+}
+.badge-default[href]:hover,
+.badge-default[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0b1526;
+}
+
+.badge-white {
+  color: #e8e3e3;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.badge-white[href]:hover,
+.badge-white[href]:focus {
+  color: #212529;
+  text-decoration: none;
+  background-color: #e6e6e6;
+}
+
+.badge-neutral {
+  color: #e8e3e3;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.badge-neutral[href]:hover,
+.badge-neutral[href]:focus {
+  color: #212529;
+  text-decoration: none;
+  background-color: #e6e6e6;
+}
+
+.badge-darker {
+  color: black;
+  background-color: rgba(64, 64, 64, 0.5);
+}
+.badge-darker[href]:hover,
+.badge-darker[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: black;
+}

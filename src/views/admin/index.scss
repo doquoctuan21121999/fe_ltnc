@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  height: 10px;
+  text-align: right;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes example {
+  from {
+    background-color: red;
+    margin-left: 0;
+  }
+  to {
+    background-color: green;
+    margin-left: 1000;
+  }
+}
+.div{
+    
+}
+

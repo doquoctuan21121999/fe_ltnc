@@ -1,0 +1,7 @@
+.soluong-pointer{
+    cursor: pointer;
+    text-align: center;
+    &:hover{
+        opacity: 0.5;
+    }
+}

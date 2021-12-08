@@ -1,0 +1,109 @@
+{
+  "name": "argon-dashboard-react",
+  "version": "1.2.0",
+  "description": "React version of Argon Dashboard by Creative Tim",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/argon-dashboard-react.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "argon",
+    "argon-react",
+    "dashboard",
+    "dashboard-react",
+    "argon-dashboard",
+    "argon-dashboard-react"
+  ],
+  "author": "1reative Tim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/argon-dashboard-react/issues"
+  },
+  "homepage": "https://demos.creative-tim.com/argon-dashboard-react/",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile:scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css",
+    "minify:scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.min.css --output-style compressed",
+    "map:scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/argon-dashboard-react.scss src/assets/css/argon-dashboard-react.css --source-map true",
+    "build:scss": "npm run compile:scss && npm run minify:scss && npm run map:scss"
+  },
+  "dependencies": {
+    "@ant-design/icons": "4.6.2",
+    "@fortawesome/fontawesome-free": "5.15.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@fullcalendar/bootstrap": "~5.7.0",
+    "@fullcalendar/core": "~5.7.0",
+    "@fullcalendar/daygrid": "~5.7.0",
+    "@fullcalendar/google-calendar": "~5.7.0",
+    "@fullcalendar/interaction": "~5.7.0",
+    "@fullcalendar/list": "~5.7.0",
+    "@fullcalendar/timegrid": "~5.7.0",
+    "@material-ui/core": "^4.9.4",
+    "@material-ui/icons": "^3.0.1",
+    "antd": "^4.15.5",
+    "bootstrap": "4.6.0",
+    "chart.js": "2.9.4",
+    "classnames": "2.2.6",
+    "crypto-js": "^4.0.0",
+    "fullcalendar": "^5.7.0",
+    "fullcalendar-scheduler": "^5.7.0",
+    "general": "^0.0.3",
+    "material-ui": "^0.20.2",
+    "moment": "2.29.1",
+    "node-sass": "4.14.1",
+    "node-sass-package-importer": "5.3.2",
+    "nouislider": "14.6.3",
+    "react": "17.0.1",
+    "react-app-rewire-babel-loader": "^0.1.1",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-chartjs-2": "2.11.1",
+    "react-copy-to-clipboard": "5.0.3",
+    "react-datetime": "3.0.4",
+    "react-dom": "17.0.1",
+    "react-notification-alert": "^0.0.13",
+    "react-popper-tooltip": "^2.8.3",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "5.2.0",
+    "react-select": "^4.3.1",
+    "react-toastify": "^7.0.4",
+    "reactstrap": "8.9.0",
+    "recharts": "^2.0.9",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.0",
+    "sweetalert2": "^11.0.11",
+    "validator": "^13.6.0",
+    "variables": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-loader": "8.1.0",
+    "react-app-rewired": "^2.1.8",
+    "react-scripts": "4.0.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 9",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/*index.js",
+      "!src/serviceWorker.js",
+      "!src/polyfill.js"
+    ]
+  }
+}

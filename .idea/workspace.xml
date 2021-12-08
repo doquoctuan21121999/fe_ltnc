@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bb752a4-eb60-42f4-b782-5f05891e9629" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/components/DatePicker/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DatePicker/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbars/AdminNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbars/AdminNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/ItemMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/ItemMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/facility/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/facility/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/place/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/place/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/program/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/program/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/subject/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/subject/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/user/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/facility/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/facility/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/place/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/place/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/program/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/program/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/subject/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/subject/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/user/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/course/CourseDone.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/course/CourseDone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/course/CoursePlan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/course/CoursePlan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/course/CourseStudying.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/course/CourseStudying.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/course/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/course/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/healthFacility/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/healthFacility/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/notification/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/notification/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/place/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/place/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/program/CreateCourseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/program/CreateCourseForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/program/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/program/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/program/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/program/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/subject/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/subject/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/user/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/general/profile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/general/profile/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tGJIxSjr63OKQCibW6477iFoL5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bb752a4-eb60-42f4-b782-5f05891e9629" name="Default Changelist" comment="" />
+      <created>1622389423406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622389423406</updated>
+      <workItem from="1622389426252" duration="7000" />
+    </task>
+    <servers />
+  </component>
+</project>
