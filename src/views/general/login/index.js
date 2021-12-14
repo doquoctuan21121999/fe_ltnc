@@ -47,7 +47,14 @@ const Login = (props) => {
             <div className="text-muted text-center mt-2 mb-3">
               <small>Đăng nhập</small>
             </div>
-            <div className="btn-wrapper text-center">
+            <div className="text-center">
+              {" "}
+              <img
+                alt="..."
+                src={require("@assets/img/icons/images.png").default}
+              />
+            </div>
+            {/* <div className="btn-wrapper text-center">
               <Button
                 className="btn-neutral btn-icon"
                 color="default"
@@ -82,7 +89,7 @@ const Login = (props) => {
                 </span>
                 <span className="btn-inner--text">Google</span>
               </Button>
-            </div>
+            </div> */}
           </CardHeader>
           <CardBody className="px-lg-5 py-lg-5">
             <div className="text-center text-muted mb-4">

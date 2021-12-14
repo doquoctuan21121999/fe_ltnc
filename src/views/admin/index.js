@@ -226,7 +226,7 @@ const Admin = (props) => {
           routes={routes}
           logo={{
             innerLink: "/admin",
-            imgSrc: require("../../assets/img/brand/logo-isoft.png").default,
+            imgSrc: require("../../assets/img/images.png").default,
             imgAlt: "...",
           }}
         />

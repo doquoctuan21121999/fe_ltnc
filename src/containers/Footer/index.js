@@ -17,7 +17,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              ISOFH
+              LTNC{" "}
             </a>
           </div>
         </Col>
